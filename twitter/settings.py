@@ -130,4 +130,4 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'accounts.User'
 
-CORS_ALLOWED_ORIGINS_ALL = True
+CORS_ALLOW_ALL_ORIGINS = True
